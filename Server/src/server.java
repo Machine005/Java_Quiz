@@ -9,7 +9,7 @@ import java.net.Socket;
 public class server {
 	private ServerSocket ssck;
 	private Socket sck;
-	private byte buffer[]=new byte[20];
+	private byte buffer[]=new byte[3];
 	private InputStream is;
 	private OutputStream os;
 	
@@ -17,7 +17,7 @@ public class server {
 		 while(sck==null) {
 		 try {
 			 
-			ssck=new ServerSocket(182);
+			ssck=new ServerSocket(1820);
 			sck=ssck.accept();
 			is=sck.getInputStream();
 

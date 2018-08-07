@@ -16,17 +16,11 @@ public class client {
 	
 	void socketconnet(String ip,int port) {
 		while(sck==null) {
-		try {
-			
+		try {	
 			sck=new Socket(ip,port);
 			os=sck.getOutputStream();
 			is=sck.getInputStream();
-			
-			//while(is.read(buffer)!=-1) {
-			//	System.out.print(new String(buffer));
-			//}
-			//System.out.println();
-			
+					
 		} catch (UnknownHostException e) {
 			// TODO 自动生成的 catch 块
 			e.printStackTrace();
@@ -61,7 +55,7 @@ public class client {
 	public static void main(String[] args) {
 		client c=new client();
 		//System.out.println("输入ip：");
-		c.socketconnet("192.168.101.3",182);
+		c.socketconnet("192.168.101.3",1820);
 		//System.out.println("输入port：");
 		c.File_read_send("C:\\Users\\asus\\Desktop\\123.txt");
 		c.Socket_close();
