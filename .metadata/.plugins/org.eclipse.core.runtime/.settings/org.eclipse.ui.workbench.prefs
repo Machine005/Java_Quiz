@@ -1,6 +1,6 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
-ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
-ColorsAndFontsPreferencePage.selectedElement=Torg.eclipse.jdt.ui.presentation
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.jdt.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jdt.ui.editors.textfont
 ENABLED_DECORATORS=org.eclipse.m2e.core.mavenVersionDecorator\:false,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:true,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.m2e.core.maven2decorator\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.buildship.ui.gradledecorator\:true,org.eclipse.eclemma.ui.coverageDecorator\:false,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
 eclipse.preferences.version=1
@@ -26,7 +26,7 @@ org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.ide.systemDefault.org.eclipse
 org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=70,70,73
 org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=81,86,88
 org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.LINK_COLOR=111,197,238
-org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Courier New|20.0|1|WINDOWS|1|-40|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
-org.eclipse.jdt.ui.editors.textfont=1|Courier New|20.0|1|WINDOWS|1|-40|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
-org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Courier New|20.0|1|WINDOWS|1|-40|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
-org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.editors.textfont=1|Courier New|20.0|1|WINDOWS|1|-40|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Courier New|14.0|1|WINDOWS|1|-28|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.jdt.ui.editors.textfont=1|Courier New|14.0|1|WINDOWS|1|-28|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Courier New|14.0|1|WINDOWS|1|-28|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.ui.ide.systemDefault.org.eclipse.jdt.ui.editors.textfont=1|Courier New|14.0|1|WINDOWS|1|-28|0|0|0|700|0|0|0|0|3|2|1|49|Courier New;
