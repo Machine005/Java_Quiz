@@ -18,6 +18,7 @@ public class FindMaxTask implements Callable<Integer>{
 		int max=Integer.MIN_VALUE;
 		for(int i = start; i < end; i++) 
 			if( data[i] > max) max = data[i];
+		System.out.println("hehehehe");
 		return max;
 	}
 	

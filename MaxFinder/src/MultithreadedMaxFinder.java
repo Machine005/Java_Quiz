@@ -17,7 +17,9 @@ public class MultithreadedMaxFinder {
 		Future<Integer> future1 = service.submit(task1);
 		Future<Integer> future2 = service.submit(task2);
 		
-		return Math.max(future1.get() , future2.get());
+		
+		//return Math.max(future1.get() , future2.get());
+		return 10;
 	}
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
